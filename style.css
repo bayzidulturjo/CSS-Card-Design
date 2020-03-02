@@ -1,0 +1,49 @@
+
+.main{
+    margin: 150px auto;
+}
+.single-person{
+    padding: 10px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    width: 22%;
+    text-align: center;
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -75px;
+}
+h1{
+    font-size: 30px;
+}
+h1, h3{
+    margin: 15px 0;
+}
+.single-person p{
+    font-size: 20px;
+    margin: 15px 0;
+    line-height: 1.6em;
+    opacity: .75;
+}
+.social_link a{
+    color: #22a6b3;
+    font-size: 25px;
+    margin: 25px;
+
+}
+@media only screen and (max-width: 1082px){
+    .single-person{
+        width: 45%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 655px){
+    .single-person{
+        width: 100%;
+        margin-top: 100px;
+    }
+}
